@@ -18,7 +18,7 @@ The primary objective of this ALS version is to modify the structure for greater
 
 From normal ALS V4 Replicated: https://github.com/EasyUnrealEngine/ALSV4Replicated.
 
-## Are you looking for the C++ version?
+## Are you looking for the C++ version (without bow and sword system)?
 
 C++ version:
 
