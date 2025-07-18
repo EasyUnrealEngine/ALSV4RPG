@@ -1,5 +1,7 @@
 # ALS_Replicated UE 5.6 with Bow and Sword system | Blueprint Version | You can use it in both C++ and Blueprint projects.
 
+## The bow and sword system work well between clients, but between server and client it needs improvement.
+
 This is a community-based effort to fully and effectively replicate Advanced Locomotion System v4 which is permanently free on the Epic Marketplace. 
 
 Discussion regarding the replication effort of ALS should take place on the official discord for Advanced Locomotion System here: https://discord.gg/wYYMHFu
