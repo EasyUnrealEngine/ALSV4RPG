@@ -1,0 +1,70 @@
+Me ajude a criar uma linguagem de programação baseada em C++, mas com algumas modificações e com mais utilidades.
+
+Como a linguagem deve ser e se comportar: A linguagem deve aceitar palavras acentuadas, símbolos, letras russas, japonesas, chinesas, árabes, gregas e coreanas, além de mudar também como as funções nativas, declarações, operadores aritméticos, números, letras, etc são escritos.
+
+Exemplo:
+
+C++:
+
+#include
+int
+return
+if
+else
+cos
+sin
++
+*
+;
+}
+=
+(
+
+Na nova linguagem:
+
+▼ (#include)
+╩ (int)
+☼ (return)
+↕ (if)
+◘ (else)
+ê (cos)
+ì (sin)
+░ (+)
+¾ (*)
+ê (;)
+û (})
+д (=)
+鳥 ("(")
+
+Números e Letras:
+
+C++:
+
+A
+a
+B
+b
+1
+8
+
+Na nova linguagem:
+
+╛ (A)
+☻ (a)
+Æ (B)
+‰ (b)
+Ø (1)
+™ (8)
+
+A nova linguagem deve conseguir identificar/reconhecer os arquivos de inclusão ("#include" em C e modificada como no exemplo acima) mesmo que eles estejam no meio do código ou no final dele, dentro de uma classe ou uma função e não somente no inicio do arquivo (como é geralmente nas primeiras linhas de código do arquivo). A diretiva de inclusão não precisa ser seguida por espaços, a nova linguagem deve reconhece-la em qualquer parte do código, mesmo que esteja colada na estrutura de alguma função classe, etc.
+
+A nova linguagem não deve precisar de espaços à cada linha de código ou parágrafos dentro e fora de classes ou funções (por exemplo, onde uma função começa e termina, tudo que estiver dentro dela deve ser reconhecido por ela própria, sem precisar seguir regras de parágrafos ou espaços). Deve ser possível terminar a escrita de uma função e logo na mesma linha ser possível escrever outra função e assim por diante (por exemplo, geralmente uma função ou classe em C, C++ ou qualquer outra linguagem termina com um ou mais símbolos como "};", tem um espaço e ai pode ser escrito outras coisas como funções, classes e etc. Na nova linguagem isso mudaria, ao terminar uma função, classe ou qualquer outra coisa, eu posso continuar escrevendo, se a função terminou com "};" eu posso escrever outras coisas do lado e ficaria "};934kdv(outra função, por exemplo)...".
+
+Deve ser possível criptografar o conteúdo de um arquivo com a nova linguagem e fazer que o receptor do arquivo com a linguagem criptografada consiga "descriptografar" seu conteúdo para conseguir lê-lo, mas apenas lê-lo, sem armazenar ou salvar o código descriptografado.
+
+Qualquer alteração sem autorização ou que parta de fora do código (alteração na memória, etc) deve ser interceptada e corrigida, por exemplo, caso haja alteração indevida no código, por exemplo, caso alguém altere algum valor ou informação na memória de uma aplicativo que estiver usando a linguagem, esse novo valor assumirá o valor original sem causar problemas do aplicativo (ex: o valor 48 (original) mudou para 10, ou seja, 10 = 48 e vice-versa, portanto 10 ou qualquer outro valor no lugar do 48 possuirá a mesma informação que estava contida no valor 48 original), isso evita que alguém altere a memória e o aplicativo, programa, etc, colapse, apresente erros, problemas ou inconsistências. Outra abordagem seria fechar imediatamente a aplicação ao ser detectado alterações indevidas ou não esperadas no código ou na memória.
+
+Um mecanismo que não permita a engenharia reversa da linguagem ou do que estiver usando ela (Análise de código-fonte, identificação de vulnerabilidades, criação de softwares compatíveis, etc.)
+
+Onde a linguagem será usada: A linguagem deverá ser usada para desenvolvimento de sites, programas, aplicativos, bibliotecas da linguagem, kernel de SO, desenvolvimento de SO, algoritmos, etc.
+
