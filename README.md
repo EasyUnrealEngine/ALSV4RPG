@@ -1,6 +1,6 @@
 # ALS_Replicated UE 5.6 with Bow and Sword system | Blueprint Version | You can use it in both C++ and Blueprint projects.
 
-## <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/7a1df750-03d8-4f12-a6ed-1b419cdd1da3" /> The bow and sword system work well between clients, but between server and client it needs improvement. <a href="https://www.flaticon.com/br/icones-gratis/risco" title="risco ícones">Risco ícones criados por Uniconlabs - Flaticon</a>
+## <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5f47fbc0-f528-4004-bc30-852d6abc9df8" /> The bow and sword system work well between clients, but between server and client it needs improvement.
 
 This is a community-based effort to fully and effectively replicate Advanced Locomotion System v4 which is permanently free on the Epic Marketplace. 
 
